@@ -1,0 +1,26 @@
+{
+  "name": "steam-web-api",
+  "version": "0.0.1",
+  "description": "steam web api",
+  "main": "steam-web.js",
+  "scripts": {
+    "test": "jasmine-node spec/",
+    "test-watch": "jasmine-node spec/ --autotest --watch ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daynekilheffer/steam-web-api.git"
+  },
+  "author": "dayne kilheffer",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/daynekilheffer/steam-web-api/issues"
+  },
+  "dependencies": {
+    "request": "~2.27.0",
+    "inherits": "~2.0.1"
+  },
+  "devDependencies": {
+    "eyes": "~0.1.8"
+  }
+}

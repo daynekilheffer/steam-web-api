@@ -1,0 +1,25 @@
+# common files
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+# common folders
+pids
+logs
+results
+
+# node specific
+npm-debug.log
+node_modules
+
+# app specific
+steam.config.js
+
+# editor specific
+.c9*
+.settings
