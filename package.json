@@ -21,6 +21,8 @@
     "inherits": "~2.0.1"
   },
   "devDependencies": {
-    "eyes": "~0.1.8"
+    "eyes": "~0.1.8",
+    "grunt": "~0.4.4",
+    "grunt-jasmine-node": "~0.2.1"
   }
 }
