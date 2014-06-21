@@ -20,6 +20,7 @@ node_modules
 # app specific
 steam.config.js
 build
+reports
 
 # editor specific
 .c9*
