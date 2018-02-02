@@ -18,9 +18,7 @@
     "url": "https://github.com/daynekilheffer/steam-web-api/issues"
   },
   "dependencies": {
-    "inherits": "~2.0.1",
-    "node-fetch": "1.7.3",
-    "request": "~2.27.0"
+    "node-fetch": "1.7.3"
   },
   "devDependencies": {
     "eyes": "0.1.8",
