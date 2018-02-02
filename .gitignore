@@ -21,6 +21,7 @@ node_modules
 steam.config.js
 build
 reports
+.nyc_output
 
 # editor specific
 .c9*

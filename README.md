@@ -1,4 +1,16 @@
 steam-web-api
 ==========
 
-Steam web api abstraction in js
+```js
+const steam = require('steam-web-api');
+const factories = steam.factories;
+
+const client = steam.client('<key>');
+client.use(factories.throttled.create())
+// or
+const client = steam.client('<key>', {
+    connectionFactory: factories.throttled.create(),
+});
+
+client.execute('<game>', '<api>', {'params'}, (err, json) => {...})
+```

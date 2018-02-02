@@ -1,11 +1,12 @@
 {
   "name": "steam-web-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "steam web api",
-  "main": "steam-web.js",
+  "main": "lib",
   "scripts": {
-    "test": "jasmine-node spec/",
-    "test-watch": "jasmine-node spec/ --autotest --watch ."
+    "test": "jasmine --config=config/jasmine.json",
+    "cover": "nyc npm test",
+    "cover-check": "nyc check-coverage --lines 95 --functions 95 --branches 95 jasmine"
   },
   "repository": {
     "type": "git",
@@ -17,13 +18,14 @@
     "url": "https://github.com/daynekilheffer/steam-web-api/issues"
   },
   "dependencies": {
-    "request": "~2.27.0",
-    "inherits": "~2.0.1"
+    "inherits": "~2.0.1",
+    "node-fetch": "1.7.3",
+    "request": "~2.27.0"
   },
   "devDependencies": {
-    "eyes": "~0.1.8",
-    "grunt": "~0.4.4",
-    "grunt-jasmine-node": "~0.2.1",
-    "grunt-jasmine-node-coverage": "~0.1.10"
+    "eyes": "0.1.8",
+    "jasmine": "2.9.0",
+    "nyc": "11.4.1",
+    "rewire": "3.0.2"
   }
 }
